@@ -166,19 +166,6 @@ public class JuiceKiosk {
         JButton b1 = new JButton("주문하기");
         pSouth1.add(b1);
 
-//        // 주문버튼 리스너
-//        b1.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                JOptionPane.showMessageDialog(null, totalOrderAmount + " 주문이 완료되었습니다.");
-//                for (int i = 0; i < menu.length; i++) {
-//                    bt[i].setEnabled(true);
-//                    ta.setText("                            상품명              가격              수량              합계\n\n");
-//
-//                }
-//                totalOrderAmount = 0; // 주문 완료 후 주문 총액 초기화
-//            }
-//        });
         // 주문버튼 리스너
         b1.addActionListener(new ActionListener() {
             @Override
